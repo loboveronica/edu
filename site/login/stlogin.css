@@ -1,0 +1,101 @@
+/* Reset de estilos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-image: url('../img/Edu.png');
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+
+
+/* Estilo do título de login */
+.edu {
+    color: #ffffff;
+    font-size: 16vh;
+    text-align: center;
+    margin-bottom: 12px;
+
+}
+
+/* Estilo do container de login */
+.login-container {
+    width: 50vh;
+    margin: 60px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Poppins', sans-serif;
+    float: right; 
+}
+
+
+/* Estilo das etiquetas de login */
+.login-label {
+    display: block;
+    margin-bottom: 5px;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    font-weight: normal;
+
+}
+
+/* Estilo dos campos de entrada de login */
+.login-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #D5D1CF;
+    border-radius: 3px;
+    background-color: #D5D1CF;
+
+    
+}
+
+/* Estilo do botão de login */
+.login-button {
+    width: 80%;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #E1C2A0;
+    color: #41474A;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px auto; /* Centraliza o botão horizontalmente */
+    display: block; /* Garante que o botão seja tratado como um bloco */
+}
+/* Estilo do botão de login ao passar o mouse */
+.login-button:hover {
+    background-color: #F2E5D8
+    ;
+}
+
+
+/* Estilo da linha separadora */
+.separator {
+    border: none;
+    border-top: 1px solid #D5D1CF;
+    margin: 20px 0;
+}
+
+
+/* Estilo do link de registro */
+.register {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 2vh;
+}
+
+/* Estilo do link de registro ao passar o mouse */
+.register:hover {
+    text-decoration: underline;
+}

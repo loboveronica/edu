@@ -1,0 +1,22 @@
+/* Reset de margens e paddings */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para o container dos gráficos */
+.charts-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Dois gráficos por linha */
+    gap: 20px; /* Espaçamento entre os gráficos */
+    padding: 20px;
+}
+
+/* Estilos para cada gráfico individual */
+canvas {
+    width: 100%; /* Garante que o gráfico ocupe toda a largura do seu contêiner */
+    height: auto; /* Faz com que a altura seja ajustada automaticamente */
+    border-radius: 8px; /* Adiciona bordas arredondadas aos gráficos */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adiciona uma leve sombra */
+    background-color: #f8f9fa; /* Cor de fundo */
+}
